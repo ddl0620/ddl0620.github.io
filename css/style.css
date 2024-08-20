@@ -128,7 +128,7 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark);/* Navbar color at Banner*/
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .navbar-light.sticky-top {
@@ -452,6 +452,9 @@
 
 
 /*** Footer ***/
+.footer{
+    font-family: 'Nunito', sans-serif;
+}
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;

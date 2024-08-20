@@ -105,16 +105,18 @@
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1500,
+        autoplayTimeout: 10000,   // Delay between image transitions (10 seconds)
+        smartSpeed: 3000,        // Speed of the image transition animation (3 seconds)
         items: 1,
         dots: false,
         loop: true,
-        nav : true,
-        navText : [
+        nav: true,
+        navText: [
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
+    
 
 
     // Testimonials carousel
